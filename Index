@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="hi">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Somil General Store</title>
+
+<style>
+*{
+  box-sizing:border-box;
+  margin:0;
+  padding:0;
+}
+
+body{
+  font-family:Arial,sans-serif;
+  background:#f7f8ff;
+  color:#222;
+}
+
+header{
+  background:linear-gradient(135deg,#6c2cff,#ff3d81);
+  color:white;
+  text-align:center;
+  padding:30px 15px;
+}
+
+header h1{
+  font-size:30px;
+  margin-bottom:8px;
+}
+
+header p{
+  font-size:15px;
+}
+
+.hero{
+  text-align:center;
+  background:white;
+  padding:35px 18px;
+}
+
+.hero h2{
+  color:#6c2cff;
+  font-size:28px;
+  margin-bottom:12px;
+}
+
+.hero p{
+  line-height:1.6;
+  margin:7px 0;
+}
+
+.section{
+  padding:30px 15px;
+  max-width:1000px;
+  margin:auto;
+}
+
+.title{
+  text-align:center;
+  color:#6c2cff;
+  margin-bottom:25px;
+}
+
+.category{
+  margin:25px 0 15px;
+  font-size:22px;
+}
+
+.products{
+  display:grid;
+  grid-template-columns:repeat(2,1fr);
+  gap:15px;
+}
+
+.product{
+  background:white;
+  border-radius:16px;
+  padding:12px;
+  text-align:center;
+  box-shadow:0 4px 14px rgba(0,0,0,.08);
+}
+
+.product img{
+  width:100%;
+  height:160px;
+  object-fit:contain;
+  border-radius:12px;
+  background:#fafafa;
+}
+
+.product h3{
+  font-size:17px;
+  margin:10px 0 5px;
+}
+
+.product p{
+  color:#666;
+  margin:5px 0;
+}
+
+.price{
+  color:#e52d55;
+  font-size:20px;
+  font-weight:bold;
+  margin-top:7px;
+}
+
+.info{
+  background:white;
+  padding:20px;
+  border-radius:16px;
+  line-height:2;
+  box-shadow:0 4px 14px rgba(0,0,0,.08);
+}
+
+footer{
+  background:#222;
+  color:white;
+  text-align:center;
+  padding:22px;
+  margin-top:20px;
+}
+
+@media(min-width:700px){
+  .products{
+    grid-template-columns:repeat(3,1fr);
+  }
+}
+</style>
+</head>
+
+<body>
+
+<header>
+<h1>🛍️ Somil General Store</h1>
+<p>आपकी रोज़मर्रा की जरूरतों का भरोसेमंद स्टोर</p>
+</header>
+
+<section class="hero">
+<h2>स्वागत है! 👋</h2>
+
+<p>
+Somil General Store पर रोज़मर्रा की जरूरत का सामान आसानी से पाएं।
+</p>
+
+<p>
+🕘 सुबह 9:00 AM – रात 9:00 PM
+</p>
+</section>
+
+
+<section class="section">
+
+<h2 class="title">🛒 हमारे Products</h2>
+
+
+<h3 class="category">🌾 आटा</h3>
+
+<div class="products">
+
+<div class="product">
+
+<img src="./images/aashirvaad-atta.jpg"
+alt="Aashirvaad Atta">
+
+<h3>Aashirvaad Atta</h3>
+
+<p>5 Kg</p>
+
+<div class="price">₹225</div>
+
+</div>
+
+
+<div class="product">
+
+<img src="./images/fortune-atta.jpg"
+alt="Fortune Atta">
+
+<h3>Fortune Atta</h3>
+
+<p>5 Kg</p>
+
+<div class="price">₹220</div>
+
+</div>
+
+</div>
+
+
+<h3 class="category">🍪 Biscuit</h3>
+
+<div class="products">
+
+<div class="product">
+
+<img src="./images/parle-g.jpg"
+alt="Parle-G Biscuit">
+
+<h3>Parle-G</h3>
+
+<p>₹5 / ₹10</p>
+
+</div>
+
+
+<div class="product">
+
+<img src="./images/patanjali-biscuit.jpg"
+alt="Patanjali Biscuit">
+
+<h3>Patanjali Biscuit</h3>
+
+<p>₹5 / ₹10</p>
+
+</div>
+
+</div>
+
+
+<h3 class="category">🧼 Soap</h3>
+
+<div class="products">
+
+<div class="product">
+
+<img src="./images/glori-soap.jpg"
+alt="Glori Soap">
+
+<h3>Glori Soap</h3>
+
+<p>₹10</p>
+
+</div>
+
+
+<div class="product">
+
+<img src="./images/no1-soap.jpg"
+alt="No.1 Soap">
+
+<h3>No.1 Soap</h3>
+
+<p>₹10</p>
+
+</div>
+
+
+<div class="product">
+
+<div style="
+height:160px;
+display:flex;
+align-items:center;
+justify-content:center;
+font-size:70px;
+background:#fafafa;
+border-radius:12px;
+">
+🧼
+</div>
+
+<h3>Nirma Soap</h3>
+
+<p>₹10</p>
+
+</div>
+
+</div>
+
+</section>
+
+
+<section class="section">
+
+<h2 class="title">📍 Store Information</h2>
+
+<div class="info">
+
+<p>
+🏪 <b>नाम:</b>
+Somil General Store
+</p>
+
+<p>
+📍 <b>स्थान:</b>
+Hatta, Damoh, Madhya Pradesh
+</p>
+
+<p>
+🕘 <b>समय:</b>
+सुबह 9:00 AM – रात 9:00 PM
+</p>
+
+<p>
+📞 <b>Contact:</b>
+Business number बाद में जोड़ेंगे
+</p>
+
+</div>
+
+</section>
+
+
+<footer>
+
+<p>© 2026 Somil General Store</p>
+
+<p>आपका अपना General Store ❤️</p>
+
+</footer>
+
+</body>
+</html>
